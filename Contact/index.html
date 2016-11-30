@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/main.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/responsive.css">
+    <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-uno">
+            <ul class="home-bar">
+                <li>
+                    <a href="../index.html"><img src="../img/continuous-line-house.png"></a>
+                </li>
+            </ul>
+        </nav>
+        <nav>
+            <ul class="left-nav">
+                <li><a href="../Product/index.html">Product</a></li>
+                <li><a href="../Review/index.html">Support</a></li>
+                <li><a href="../Video/index.html">Video</a></li>
+                <li><a href="./index.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class = "support"><img src="../img/qss.png"></div>
+    <section id="contact">
+        <div class="container">
+            <form name="htmlform" method="post" action="toyousender.php">
+                <input type="text" name="first_name" placeholder="NAME" required>
+                <input type="email" name="email" placeholder="MAIL" required>
+                <textarea name="comments" placeholder="MESSAGE" required></textarea>
+                <button name="send" type="submit" class="submit">SEND</button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
